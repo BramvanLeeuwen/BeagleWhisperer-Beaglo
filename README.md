@@ -1,6 +1,8 @@
 # BeagleWhisperer-Beaglo
-C++ libraries for TCP/IP communication and controlling and readout ports od the Beaglebone Black from a Windows computer
+I'm developing a multi-purpose automation program to automate tasks for the Beaglebone Black, intended to facilitate experimenting with the Beaglebone. It is built as a dual program. It consistst on the Beaglebone side of the program BeagloAutomation and in the desktop computer side (until now: Windows-side) of the program BeagleWhisperer.exe. When it runs on the Beaglebone it can accept orders from the command line to readout time/ ADC values/ . When the program runs on the Beaglebone it can read portvalues with values from the command line The BeagloAutomation program is developed , on a Beaglebone Black (BBB) with Ǻgstrom 3.8.13 installed. It uses some library functions of the gcc C++ libraries. Install gcc on your Beaglebone(opkg install gcc) to load the libraries. When the program runs under Debian on the Beaglebone you need to copy the ‘libstdc++.so.6’ library to the directory :’ /user/lib/arm-linux-gnueabihf/’ on the BBB It is developed with Eclipse Indigo (Service Release 2), in C++. The set of
 
-The Beaglebone Linux program is written in C++ (compiled by GCC).The program is heavy loaded with uncommented print functions for the terminal, to test the various functions. Use the code als a template for your own C++ program. It is built to test the functions, rather. But it's easier to throw away superfluent parts you do not use than build new parts! As it is, it is not meant as a automation program. But you can use it to build such a program. Download the C++ code from the 'Beaglo'-page.
+BeagleWisperer.
+
+The program ‘BeagleWhisperer’ for Windows is developed with the multiplatform RadStudio C++ development environment under Firemonkey. With a few minor adaptations it can be compiled for Apple IOS and Android. The desktop-computer program is in the stage of development. I’m planning to make a beta version in the first half of 2014. 
 
 Visit http://www.bram-vanleeuwen.nl/BeagleWhisperer/BeagleWhisperer.htm to see the full description of both programs.

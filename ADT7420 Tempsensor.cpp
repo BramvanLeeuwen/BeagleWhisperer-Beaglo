@@ -60,7 +60,7 @@ int ADT7420_Tempsensor::readSensorState(){
     this->temp = convertTemperature();
     return 0;
 }
-
+ 
 
 float ADT7420_Tempsensor::convertTemperature()
 {   int   i,j;

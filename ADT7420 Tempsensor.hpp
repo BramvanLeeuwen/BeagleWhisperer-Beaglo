@@ -1,6 +1,5 @@
 /*
  * ADT7420 Tempsensor.hpp
- *
  *  Created on: Apr 27, 2014
  *      Author: Bram van Leeuwen
  */

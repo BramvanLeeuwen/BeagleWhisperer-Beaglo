@@ -6,4 +6,4 @@ When 'Beaglo' runs on the Beaglebone it can accept orders from the command line 
 #BeagleWisperer.
 The program ‘BeagleWhisperer’ for Windows is developed with the multiplatform RadStudio C++ development environment under Firemonkey. With a few minor adaptations it can be compiled for Apple IOS and Android. The desktop-computer program is in the stage of development. I’m planning to make a beta version in the first half of 2014. 
 
-Visit http://www.bram-vanleeuwen.nl/BeagleWhisperer/BeagleWhisperer.htm to see the full description of both programs. There is also the newest version of the code to downlad.
+Visit http://www.bram-vanleeuwen.nl/BeagleWhisperer/BeagleWhisperer.htm to see the full description of both programs. There is also the newest version of the code to download.

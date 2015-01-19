@@ -371,7 +371,7 @@ void ADC::GetFileHandle_(unsigned int ad)
 
 float ADC::voltage_value()   			//gets the value of the pin
 { //for (int i=0;i<=0;i++){
-	ifp_ain = fopen(value_filename, "r");
+	ifp_ain = fopen(value_filename, "r");  
 	if (ifp_ain == NULL)
 		   printf("Unable to open file for adport %i .\n",ad_nr);
 	fseek(ifp_ain, 0, SEEK_SET);
